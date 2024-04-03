@@ -45,7 +45,7 @@ function Presentation() {
                         
                     </tbody>                    
                 </table>
-                
+                                
             </div>
             <div className="w-2/5">
                 <img src="https://engepesca.com.br/uploads/imagens/800x600_tilapia-pesquisadores-descobrem-na-composicao-creatina-taurina-e-glutamato-249-7424.jpg" alt="logo"></img>
