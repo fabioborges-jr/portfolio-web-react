@@ -6,17 +6,17 @@ import LinkedIn from "../assets/Linkedin.svg"
 
 export default function Presentation() {
     return (
-        <div className="overflow-x-auto container mx-auto flex justify-between">
+        <div className="m-0 p-0 box-border container mx-auto flex justify-between">
             <div className="w-2/5">
                 <p className="font-serif text-lg text-gray-400">MY NAME IS</p><br />
                 <p className="font-bold text-3xl">Nicolas Montoro Rodrigues.</p><br />
                 <p className="text-lg">Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX.</p><br />
                 
-                <table className="w-full border-collapse">
+                <table className="w-full min-w-40 border-collapse">
                     <thead>
                         <tr>
                             <th>
-                                <img src={Github}   alt="Github"></img>
+                                <img src={Github} alt="Github"></img>
                             </th>
                             <th> 
                                 <img src={LinkedIn} alt="LinkedIn"></img>                               
@@ -46,7 +46,7 @@ export default function Presentation() {
                 </table>
                                 
             </div>
-            <div className="w-2/5">
+            <div className="w-2/5 min-w-96">
                 <img src="https://engepesca.com.br/uploads/imagens/800x600_tilapia-pesquisadores-descobrem-na-composicao-creatina-taurina-e-glutamato-249-7424.jpg" alt="logo"></img>
             </div>
         </div>
