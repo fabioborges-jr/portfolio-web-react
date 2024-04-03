@@ -13,7 +13,7 @@ export default function Presentation() {
                 <p className="text-lg">Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX.</p><br />
                 
                 <table>
-                    <thead className="leading-6">
+                    <thead>
                         <tr>
                             <th className="pr-8">
                                 <img src={Github} alt="Github"></img>
