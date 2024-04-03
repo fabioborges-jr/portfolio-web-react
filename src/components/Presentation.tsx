@@ -15,27 +15,34 @@ function Presentation() {
                 <table>
                     <thead>
                         <tr>
-                            <th>
+                            <th className="pr-8">
                                 <img src={Github} alt="Github"></img>
                             </th>
-                            <th>
+                            <th className="pr-8">
                                 <img src={LinkedIn} alt="LinkedIn"></img>
                             </th>                            
                         </tr>
                     </thead>
-                    <tbody>                                                
-                        <img 
-                            src={Cellphone} 
-                            alt="Cellphone">                        
-                        </img>
-                        <img 
-                            src={Email} 
-                            alt="Email">                        
-                        </img>
-                        <img 
-                            src={Location} 
-                            alt="Location">                        
-                        </img>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img className="pt-4" src={Cellphone} alt="Cellphone"></img>
+                            </td>
+                            <td className="pt-3">(XX) XXXXX-XXXX</td>                          
+                        </tr>
+                        <tr>
+                            <td>
+                                <img className="pt-4" src={Email} alt="Email"></img>
+                            </td>
+                            <td className="pt-3">tilapia@gmail.com</td>                          
+                        </tr>
+                        <tr>
+                            <td>
+                                <img className="pt-4" src={Location} alt="Location"></img>
+                            </td>
+                            <td className="pt-3">Location</td>                          
+                        </tr>                        
+                        
                     </tbody>                    
                 </table>
                 
