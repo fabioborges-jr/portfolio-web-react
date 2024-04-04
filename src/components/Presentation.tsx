@@ -4,7 +4,7 @@ import Email from "../assets/mail.svg"
 import Location from "../assets/location-outline.svg"
 import LinkedIn from "../assets/Linkedin.svg"
 
-function Presentation() {
+export default function Presentation() {
     return (
         <body>            
             <div className="m-4 p-4 flex justify-between border-2">
@@ -42,5 +42,3 @@ function Presentation() {
         </body>        
     )
 }
-
-export default Presentation
