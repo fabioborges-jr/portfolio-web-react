@@ -3,7 +3,7 @@ import Cellphone from "../assets/telephone.svg"
 import Email from "../assets/mail.svg"
 import Location from "../assets/location-outline.svg"
 import LinkedIn from "../assets/Linkedin.svg"
-import Me from "../assets/1545128978660.jpg"
+import Me from "../assets/Nicolas.jpg"
 
 export default function Presentation() {
     return (
