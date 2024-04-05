@@ -3,13 +3,14 @@ import Cellphone from "../assets/telephone.svg"
 import Email from "../assets/mail.svg"
 import Location from "../assets/location-outline.svg"
 import LinkedIn from "../assets/Linkedin.svg"
+import Me from "../assets/1545128978660.jpg"
 
 export default function Presentation() {
     return (
         <body>            
-            <div className="m-4 p-4 flex justify-between border-2">
+            <div className="m-4 p-4 flex flex-wrap justify-between border-2">
 
-                <div className="w-2/5">
+                <div className="md:w-2/5">
                     <p className="font-serif text-lg text-gray-400">MY NAME IS</p><br />
                     <p className="font-bold text-3xl">Nicolas Montoro Rodrigues.</p><br />
                     <p className="text-lg">Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX.</p><br />  
@@ -34,8 +35,8 @@ export default function Presentation() {
                     </div>                                                
                 </div>
 
-                <div className="flex items-center w-2/5">
-                    <img className="min-w-96" src="https://engepesca.com.br/uploads/imagens/800x600_tilapia-pesquisadores-descobrem-na-composicao-creatina-taurina-e-glutamato-249-7424.jpg" alt="logo"></img>                                     
+                <div className="flex items-center">
+                    <img className="w-96 min-w-44 h-auto" src={Me} alt="Eu"></img>                               
                 </div>
             </div>  
         </body>        
