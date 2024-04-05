@@ -34,10 +34,9 @@ export default function Presentation() {
                     </div>                                                
                 </div>
 
-                <div className="flex items-center w-2/5 ">                    
-                    <img src="https://engepesca.com.br/uploads/imagens/800x600_tilapia-pesquisadores-descobrem-na-composicao-creatina-taurina-e-glutamato-249-7424.jpg" alt="logo"></img>
+                <div className="flex items-center w-2/5">
+                    <img className="min-w-96" src="https://engepesca.com.br/uploads/imagens/800x600_tilapia-pesquisadores-descobrem-na-composicao-creatina-taurina-e-glutamato-249-7424.jpg" alt="logo"></img>                                     
                 </div>
-
             </div>  
         </body>        
     )
