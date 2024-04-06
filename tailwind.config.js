@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors:{
         "background-1":"#FFFFFF",
-        "background-2":"#FBFBFB"
+        "background-2":"#FBFBFB",
+        "service-bg":"#F5F3FE",
       }
     },
   },
