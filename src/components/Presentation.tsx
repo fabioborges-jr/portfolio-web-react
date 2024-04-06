@@ -1,19 +1,18 @@
-import Github from "../assets/Github.svg"
-import Cellphone from "../assets/telephone.svg"
-import Email from "../assets/mail.svg"
-import Location from "../assets/location-outline.svg"
-import LinkedIn from "../assets/Linkedin.svg"
-import Me from "../assets/Nicolas.jpg"
+import Github from '../assets/Github.svg'
+import Cellphone from '../assets/telephone.svg'
+import Email from '../assets/mail.svg'
+import Location from '../assets/location-outline.svg'
+import LinkedIn from '../assets/Linkedin.svg'
+import Me from '../assets/Nicolas.jpg'
 
 export default function Presentation() {
     return (
         <body>            
             <div className="m-4 p-4 flex flex-wrap justify-between border-2">
-
                 <div className="md:w-2/5">
-                    <p className="font-serif text-lg text-gray-400">MY NAME IS</p><br />
-                    <p className="font-bold text-3xl">Nicolas Montoro Rodrigues.</p><br />
-                    <p className="text-lg">Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX.</p><br />  
+                    <h5 className="font-serif text-lg text-gray-400">MY NAME IS</h5><br />
+                    <h1 className="font-bold text-3xl">Nicolas Montoro Rodrigues.</h1><br />
+                    <p className="text-lg">Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX.</p> 
 
                     <div>
                         <div className="flex">
